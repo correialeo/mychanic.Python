@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Problemas Veiculares</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex flex-col justify-center items-center min-h-screen bg-gray-100 p-4">
+    <div class="mb-8 flex items-center text-center justify-center">
+      <h1 class="text-2xl font-bold text-gray-800 ">Lista de Problemas Veiculares - Sprint 4</h1>
+    </div>
+    <div class="w-full max-w-4xl">
+      <a class="mb-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="{{ url_for('add') }}">Adicionar novo problema</a>
+      <table class="table-auto w-full mt-6 border-collapse border border-gray-300">
+        <thead>
+          <tr class="bg-gray-200">
+            <th class="border px-4 py-2">ID</th>
+            <th class="border px-4 py-2">Problema</th>
+            <th class="border px-4 py-2">Sintoma</th>
+            <th class="border px-4 py-2">Causa</th>
+            <th class="border px-4 py-2">Solução</th>
+            <th class="border px-4 py-2">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for problema in problemas %}
+          <tr>
+            <td class="border px-4 py-2">{{ problema.id }}</td>
+            <td class="border px-4 py-2">{{ problema.problema }}</td>
+            <td class="border px-4 py-2">{{ problema.sintoma }}</td>
+            <td class="border px-4 py-2">{{ problema.causa }}</td>
+            <td class="border px-4 py-2">{{ problema.solucao }}</td>
+            <td class="border px-4 py-2">
+              <a class="mr-8" href="{{ url_for('edit', id=problema.id) }}">Editar</a>
+              <a href="{{ url_for('delete_web', id=problema.id) }}">Excluir</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

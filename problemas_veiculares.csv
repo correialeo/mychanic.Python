@@ -1,0 +1,105 @@
+id,problema,sintoma,causa,solucao
+1,Freios ruidosos,Ruídos ao frear,Pastilhas de freio desgastadas,Substituir as pastilhas de freio
+2,Freios ruidosos,Pedal de freio duro,Discos deformados,Substituir os discos de freio
+3,Dificuldades na transmissão,Dificuldade em trocar marchas,Nível baixo de fluido,Reabastecer o fluido de transmissão
+4,Dificuldades na transmissão,Barulho na transmissão,Componentes desgastados,Reparar ou substituir a transmissão
+5,Bateria descarregando rapidamente,Dificuldade em dar partida,Alternador defeituoso,Substituir o alternador
+6,Bateria descarregando rapidamente,Luzes fracas,Corrosão nos terminais,Limpar os terminais da bateria
+7,Desgaste irregular dos pneus,Vibrações ao dirigir,Desalinhamento,Realinhar as rodas
+8,Desgaste irregular dos pneus,Direção puxando para um lado,Balanceamento inadequado,Realizar o balanceamento das rodas
+9,Barulhos na suspensão,Rangidos ao passar por buracos,Amortecedores desgastados,Substituir os amortecedores
+10,Barulhos na suspensão,Direção dura,Buchas danificadas,Substituir as buchas
+11,Falhas elétricas,Falhas no sistema de iluminação,Alternador defeituoso,Substituir o alternador
+12,Falhas elétricas,Dificuldades no arranque,Bateria defeituosa,Substituir a bateria
+13,Vazamento no sistema de refrigeração,Perda de fluido de arrefecimento,Mangueiras rachadas,Substituir as mangueiras
+14,Vazamento no sistema de refrigeração,Superaquecimento do motor,Radiador com vazamento,Reparar ou substituir o radiador
+15,Falhas nos sensores,Luz de aviso no painel,Sensores sujos,Limpar os sensores
+16,Falhas nos sensores,Desempenho irregular,Sensores defeituosos,Substituir os sensores
+17,Problemas no sistema de escape,Ruído excessivo,Vazamentos no sistema,Reparar o vazamento
+18,Problemas no sistema de escape,Cheiro de gases no interior do veículo,Catalisador obstruído,Substituir o catalisador
+19,Barulho no motor,Ruído constante e incômodo no interior do veículo,"Defeito de fábrica: Vibrações excessivas no motor, especialmente em baixas rotações",Reparo ou troca do motor (conforme garantia)
+20,Barulho no motor,Vibração e ruído perceptíveis em momentos específicos,"Montagem incorreta: Ruído metálico intermitente, principalmente durante aceleração",Revisão e ajuste da montagem do motor (conforme garantia)
+21,Barulho no motor,Perda de potência e aumento do consumo de combustível,"Desgaste de peças: Ruído metálico constante, especialmente em alta rotação",Reparo ou troca da peça desgastada (conforme garantia)
+22,Barulho no motor,Dificuldade em trocar marchas e vibração no veículo,Problemas na transmissão: Ruído de atrito durante a troca de marchas,Reparo ou troca da peça defeituosa na transmissão (conforme garantia)
+23,Superaquecimento,Vazamento de água do motor,Vazamento no sistema de arrefecimento,"Reparar o vazamento (mangueiras, junções, etc.)"
+24,Superaquecimento,Perda de líquido de arrefecimento,Vazamento no sistema de arrefecimento,Completar o nível do líquido de arrefecimento e reparar o vazamento
+25,Superaquecimento,Vazamento de água do radiador,Problemas com o radiador,Substituir o radiador
+26,Superaquecimento,Aletas do radiador entupidas,Problemas com o radiador,Limpar as aletas do radiador
+27,Superaquecimento,Termostato travado na posição fechada,Termostato defeituoso,Substituir o termostato
+28,Superaquecimento,Termostato travado na posição aberta,Termostato defeituoso,Substituir o termostato
+29,Superaquecimento,Bomba d'água não funciona,Bomba d'água defeituosa,Substituir a bomba d'água
+30,Superaquecimento,Ventilador não liga,Ventilador elétrico defeituoso,Substituir o ventilador elétrico
+31,Superaquecimento,Vazamento de líquido de arrefecimento,Nível baixo de líquido de arrefecimento,Completar o nível do líquido de arrefecimento e reparar o vazamento
+32,Superaquecimento,Falta de adição de líquido de arrefecimento,Nível baixo de líquido de arrefecimento,Completar o nível do líquido de arrefecimento com a mistura correta (água desmineralizada e aditivo)
+33,Superaquecimento,Tampa não veda corretamente,Tampa do radiador defeituosa,Substituir a tampa do radiador
+34,Superaquecimento,Líquido de arrefecimento de baixa qualidade,Uso de líquido de arrefecimento inadequado,Substituir o líquido de arrefecimento pelo recomendado no manual do proprietário
+35,Superaquecimento,Vazamento de gases da combustão para o sistema de arrefecimento,Falha na junta do cabeçote,Substituir a junta do cabeçote
+36,Superaquecimento,Fumaça saindo do capô,Superaquecimento excessivo,Desligar o motor imediatamente e aguardar esfriar antes de abrir o capô
+37,Superaquecimento,Bolhas de ar no sistema de arrefecimento,Superaquecimento excessivo,Fazer a sangria do sistema de arrefecimento
+38,Trinca no Bloco do Motor,Vazamento de líquido de arrefecimento,Pressão excessiva no sistema de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+39,Trinca no Bloco do Motor,Superaquecimento do Motor,Pressão excessiva no sistema de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+40,Trinca no Bloco do Motor,Perda de potência do motor,Pressão excessiva no sistema de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+41,Trinca no Bloco do Motor,Fumaça branca no escapamento,Pressão excessiva no sistema de arrefecimento,Possível reparo com resina epóxi ou substituição do bloco do motor
+42,Trinca no Bloco do Motor,Vazamento de líquido de arrefecimento,Exposição a altas temperaturas,Possível reparo com resina epóxi ou substituição do bloco do motor
+43,Trinca no Bloco do Motor,Superaquecimento do Motor,Exposição a altas temperaturas,Possível reparo com resina epóxi ou substituição do bloco do motor
+44,Trinca no Bloco do Motor,Perda de potência do motor,Exposição a altas temperaturas,Possível reparo com resina epóxi ou substituição do bloco do motor
+45,Trinca no Bloco do Motor,Fumaça branca no escapamento,Exposição a altas temperaturas,Possível reparo com resina epóxi ou substituição do bloco do motor
+46,Trinca no Bloco do Motor,Vazamento de líquido de arrefecimento,Defeitos de Fabricação,Substituição do bloco do motor
+47,Trinca no Bloco do Motor,Superaquecimento do Motor,Defeitos de Fabricação,Substituição do bloco do motor
+48,Trinca no Bloco do Motor,Perda de potência do motor,Defeitos de Fabricação,Substituição do bloco do motor
+49,Trinca no Bloco do Motor,Fumaça branca no escapamento,Defeitos de Fabricação,Substituição do bloco do motor
+50,Desgaste dos freios,Perda de eficiência na frenagem,Fuga de fluido de freio,Reparar fuga de fluido de freio
+51,Desgaste dos freios,Ruído ao frear,Desgaste das pastilhas de freio,Substituição das pastilhas de freio
+52,Desgaste dos freios,Perda de eficiência na frenagem,Problemas no cilindro mestre,Substituição do cilindro mestre
+53,Desgaste dos freios,Ruído ao frear,Desgaste dos discos de freio,Substituição dos discos de freio
+54,Desgaste dos freios,Veículo puxa para um lado ao frear,Desgaste dos discos de freio,Substituição dos discos de freio
+55,Desgaste dos freios,Perda de eficiência na frenagem,Desgaste das pastilhas de freio,Substituição das pastilhas de freio
+56,Desgaste dos freios,Ruído ao frear,Desgaste do tambor de freio,Substituição do tambor de freio
+57,Desgaste dos freios,Perda de eficiência na frenagem,Desgaste das lonas de freio,Substituição das lonas de freio
+58,Desgaste dos freios,Ruído ao frear,Fuga de fluido de freio,Reparar fuga de fluido de freio
+59,Desgaste dos freios,Pedal de freio baixo,Fuga de fluido de freio,Reparar fuga de fluido de freio
+60,Problema no câmbio,Dificuldade ao engatar marcha,Desgaste no sincronizador,Substituir sincronizador
+61,Problema no câmbio,Dificuldade ao engatar marcha,Desgaste nos cabos de acionamento,Substituir cabos de acionamento
+62,Problema no câmbio,Dificuldade ao engatar marcha,Falta de fluido de transmissão,Completar fluido de transmissão
+63,Problema no câmbio,Barulho ao trocar de marcha,Desgaste nas engrenagens,Substituir engrenagens
+64,Problema no câmbio,Dificuldade ao engatar marcha,Embreagem desgastada,Substituir embreagem
+65,Problema no câmbio,Barulho ao trocar de marcha,Falta de fluido de transmissão,Completar fluido de transmissão
+66,Problema no câmbio,Troca de marchas irregular,Problemas no câmbio automático,Revisar câmbio automático
+67,Problema no câmbio,Patinação ao acelerar,Problemas no câmbio automático,Revisar câmbio automático
+68,Problema no câmbio,Ruído ao trocar de marcha,Problemas no câmbio automático,Revisar câmbio automático
+69,Problema no câmbio,Patinação ao acelerar,Problemas no conversor de torque,Substituir conversor de torque
+70,Problema no câmbio,Ruído ao acelerar,Problemas no conversor de torque,Substituir conversor de torque
+71,Problema na direção,Vibração no volante,Desgaste na caixa de direção,Substituir caixa de direção
+72,Problema na direção,Folga no volante,Desgaste nos terminais de direção,Substituir terminais de direção
+73,Problema na direção,Veículo puxando para um lado,Desalinhamento das rodas,Realinhar rodas
+74,Problema na direção,Volante pesado,Falta de fluido de direção,Completar fluido de direção
+75,Problema na direção,Volante com folga,Desgaste na cremalheira de direção,Substituir cremalheira de direção
+76,Problema na direção,Barulho ao virar o volante,Falta de fluido de direção,Completar fluido de direção
+77,Problema na direção,Ruído ao virar o volante,Desgaste nos rolamentos de direção,Substituir rolamentos de direção
+78,Problema no motor,Perda de potência do motor,Falta de compressão em um cilindro,Reparar o cilindro
+79,Problema no motor,Perda de potência do motor,Filtro de ar sujo,Substituir filtro de ar
+80,Problema no motor,Dificuldade ao dar partida,Velas de ignição desgastadas,Substituir velas de ignição
+81,Problema no motor,Dificuldade ao dar partida,Cabo de vela danificado,Substituir cabo de vela
+82,Problema no motor,Dificuldade ao dar partida,Bobina de ignição com defeito,Substituir bobina de ignição
+83,Problema no motor,Perda de potência do motor,Filtro de combustível entupido,Substituir filtro de combustível
+84,Problema no motor,Perda de potência do motor,Bomba de combustível com defeito,Substituir bomba de combustível
+85,Problema no motor,Aumento do consumo de combustível,Sonda lambda defeituosa,Substituir sonda lambda
+86,Problema no motor,Marcha lenta irregular,Sistema de injeção sujo,Limpar sistema de injeção
+87,Problema no motor,Motor falhando,EGR com defeito,Substituir válvula EGR
+88,Problema no motor,Motor superaquecendo,Sensor de temperatura defeituoso,Substituir sensor de temperatura
+89,Problema no motor,Ruído no motor,Corrente de comando desgastada,Substituir corrente de comando
+90,Problema no motor,Falha na partida,Problema no sensor de rotação,Substituir sensor de rotação
+91,Problema no motor,Falha na partida,Problema no sensor de fase,Substituir sensor de fase
+92,Problema no motor,Falha na partida,Problema no módulo de injeção,Reprogramar ou substituir módulo de injeção
+93,Problema no motor,Bateria descarregada,Problema no alternador,Substituir alternador
+94,Problema no motor,Ruído no motor,Correia dentada desgastada,Substituir correia dentada
+95,Problema no motor,Motor não funciona,Correia dentada rompida,Substituir correia dentada
+96,Problema no motor,Ruído no motor,Correia de acessórios desgastada,Substituir correia de acessórios
+97,Problema no motor,Falha no sistema elétrico,Correia de acessórios rompida,Substituir correia de acessórios
+98,Problema no motor,Superaquecimento do motor,Problema no sistema de arrefecimento,Reparar sistema de arrefecimento
+99,Problema no motor,Superaquecimento do motor,Radiador entupido,Limpar ou substituir radiador
+100,Problema no motor,Ruído excessivo,Problema no sistema de escape,Reparar ou substituir sistema de escape
+101,Problema no motor,Luz de óleo acesa no painel,Problema no sensor de pressão do óleo,Substituir sensor de pressão do óleo
+102,Problema no motor,Luz de óleo acesa no painel,Falta de óleo no motor,Completar o nível de óleo
+103,Problema no motor,Ruído no motor,Bomba de óleo defeituosa,Substituir bomba de óleo
+104,Problema no motor,Perda de óleo,Problema no cárter,Reparar ou substituir cárter

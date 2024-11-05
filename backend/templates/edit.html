@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Problema</title>
+</head>
+<body>
+  <h1>Editar Problema</h1>
+  <form method="post">
+    Problema: <input type="text" name="problema" value="{{ problema.problema }}"><br>
+    Sintoma: <input type="text" name="sintoma" value="{{ problema.sintoma }}"><br>
+    Causa: <input type="text" name="causa" value="{{ problema.causa }}"><br>
+    Solução: <input type="text" name="solucao" value="{{ problema.solucao }}"><br>
+    <input type="submit" value="Salvar">
+  </form>
+</body>
+</html>
